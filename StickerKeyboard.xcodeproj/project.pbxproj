@@ -7,15 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E201EEC7258B1977002E0D23 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E201EEC6258B1977002E0D23 /* README.md */; };
 		E2F4EC2F258A0CEA00148EEC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4EC2E258A0CEA00148EEC /* AppDelegate.swift */; };
 		E2F4EC31258A0CEA00148EEC /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4EC30258A0CEA00148EEC /* SceneDelegate.swift */; };
 		E2F4EC33258A0CEA00148EEC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4EC32258A0CEA00148EEC /* ViewController.swift */; };
 		E2F4EC36258A0CEA00148EEC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F4EC34258A0CEA00148EEC /* Main.storyboard */; };
 		E2F4EC38258A0CED00148EEC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2F4EC37258A0CED00148EEC /* Assets.xcassets */; };
 		E2F4EC3B258A0CED00148EEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2F4EC39258A0CED00148EEC /* LaunchScreen.storyboard */; };
+		E2F4EC45258A102400148EEC /* StickerView.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2F4EC44258A102400148EEC /* StickerView.xib */; };
+		E2F4EC48258A103500148EEC /* StickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F4EC47258A103500148EEC /* StickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E201EEC6258B1977002E0D23 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		E2F4EC2B258A0CEA00148EEC /* StickerKeyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StickerKeyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2F4EC2E258A0CEA00148EEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E2F4EC30258A0CEA00148EEC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,8 @@
 		E2F4EC37258A0CED00148EEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2F4EC3A258A0CED00148EEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E2F4EC3C258A0CED00148EEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E2F4EC44258A102400148EEC /* StickerView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = StickerView.xib; sourceTree = "<group>"; };
+		E2F4EC47258A103500148EEC /* StickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +46,7 @@
 		E2F4EC22258A0CEA00148EEC = {
 			isa = PBXGroup;
 			children = (
+				E201EEC6258B1977002E0D23 /* README.md */,
 				E2F4EC2D258A0CEA00148EEC /* StickerKeyboard */,
 				E2F4EC2C258A0CEA00148EEC /* Products */,
 			);
@@ -63,6 +70,8 @@
 				E2F4EC37258A0CED00148EEC /* Assets.xcassets */,
 				E2F4EC39258A0CED00148EEC /* LaunchScreen.storyboard */,
 				E2F4EC3C258A0CED00148EEC /* Info.plist */,
+				E2F4EC44258A102400148EEC /* StickerView.xib */,
+				E2F4EC47258A103500148EEC /* StickerView.swift */,
 			);
 			path = StickerKeyboard;
 			sourceTree = "<group>";
@@ -124,7 +133,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F4EC45258A102400148EEC /* StickerView.xib in Resources */,
 				E2F4EC3B258A0CED00148EEC /* LaunchScreen.storyboard in Resources */,
+				E201EEC7258B1977002E0D23 /* README.md in Resources */,
 				E2F4EC38258A0CED00148EEC /* Assets.xcassets in Resources */,
 				E2F4EC36258A0CEA00148EEC /* Main.storyboard in Resources */,
 			);
@@ -137,6 +148,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F4EC48258A103500148EEC /* StickerView.swift in Sources */,
 				E2F4EC33258A0CEA00148EEC /* ViewController.swift in Sources */,
 				E2F4EC2F258A0CEA00148EEC /* AppDelegate.swift in Sources */,
 				E2F4EC31258A0CEA00148EEC /* SceneDelegate.swift in Sources */,
@@ -289,6 +301,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9GE8EQEDQB;
 				INFOPLIST_FILE = StickerKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -296,7 +309,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = id.alfian.StickerKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,6 +321,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9GE8EQEDQB;
 				INFOPLIST_FILE = StickerKeyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +329,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = id.alfian.StickerKeyboard;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
